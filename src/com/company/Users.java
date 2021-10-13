@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.Scanner;
 public class Users {
- //hej
+
 
     private static String userName1;
     private static String userName2;
@@ -66,8 +66,6 @@ public class Users {
     public void setPlayer3(Scanner player3) {
         this.player3 = player3;
     }
-
-
 
     public static String[] theUser = new String[3];
 }
