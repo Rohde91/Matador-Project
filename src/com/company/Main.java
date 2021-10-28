@@ -1,5 +1,6 @@
 package com.company;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
@@ -36,5 +37,8 @@ public class Main {
         System.out.println("Player 3 is: " + AllUsers.userListe[2]);
 
         Board.Start();
+        //Bank.Purchase(0,1);
+
+
     }
 }
